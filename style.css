@@ -1,0 +1,58 @@
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.banner-portion{
+    background-image: url(./images/donation9.jpg);
+    height: 500px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+  
+}
+.banner-portion::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(0,0,0,.5);
+    z-index: -1;
+}
+
+.banner-text{
+   font-size: 50px;
+   color: white;
+   text-align: center;
+   z-index: 100;
+}
+.overlay h6{
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.overlay a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+    background-color: orangered;
+    width: 200px;
+   padding:  10px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+

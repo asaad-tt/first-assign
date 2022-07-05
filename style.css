@@ -40,7 +40,7 @@ body{
     text-align: center;
     letter-spacing: 1px;
 }
-.overlay a{
+.d-button{
     display: block;
     text-align: center;
     text-decoration: none;
@@ -82,6 +82,54 @@ body{
     color: #ff5959;
     border: 2px solid #ff5959;
 }
+.other{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.other h6{
+    border-bottom: 1px solid gray;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    font-size: 16px;
+    color: grey;
+}
+.d-plan{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.d-common{
+    width: 300px;
+    height: 300px;
+    text-align: left;
+}
+.d-box{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+   
+}
+.d-food{
+    background-color: #edf5f6;
+    padding-left: 20px;
 
+}
+.d-food img{
+    margin-top: 50px;
 
-
+}
+.d-shelter{
+    background-color: #ffeeee;
+    padding-left:20px ;
+}
+.d-shelter img{
+    margin-top: 50px;
+}
+.d-education{
+    background-color: #fff4d6;
+    padding-left:20px ;
+}
+.d-education img{
+    margin-top: 50px;
+}

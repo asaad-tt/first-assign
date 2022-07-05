@@ -54,5 +54,34 @@ body{
     border-radius: 10px;
 }
 
+.amount-section{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.d-text{
+    font-size: 40px;
+    font-weight: 700;
+}
+.amount-section p{
+    font-size: 18px;
+}
+.number{
+    display: flex;
+    justify-content: space-evenly;
+}
+.hundred{
+    padding: 10px;
+    background-color: #81ecec;
+    color: #333;
+    border-radius: 5px;
+    
+}
+.twohundred{
+    background-color: #ffeeee;
+    color: #ff5959;
+    border: 2px solid #ff5959;
+}
+
 
 

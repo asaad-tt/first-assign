@@ -68,13 +68,15 @@ body{
 }
 .number{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 .hundred{
-    padding: 10px;
+    
     background-color: #81ecec;
     color: #333;
     border-radius: 5px;
+    margin: 0 10px;
+    width: 100px;
     
 }
 .twohundred{
@@ -85,6 +87,16 @@ body{
 .other{
     margin-top: 40px;
     margin-bottom: 20px;
+}
+.other-amount{
+    width: 600px;
+    border-width: 0 0 1px 0;
+
+}
+.other-amount::placeholder{
+    text-align: center;
+    font-size: 16px;
+  
 }
 .other h6{
     border-bottom: 1px solid gray;

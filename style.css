@@ -145,3 +145,60 @@ body{
 .d-education img{
     margin-top: 50px;
 }
+.service-text{
+    text-align: center;
+}
+.helping{
+    display: flex;
+}
+.helping img{
+    width: 400px;
+    height: 400px;
+    line-height: 400px;
+    border-radius: 50%;
+    margin-left: 80px;
+}
+.helping-text{
+    margin-left: 60px;
+    width: 53%;
+    
+}
+.helping-text h6{
+    text-transform: uppercase;
+    color: #ff4500;
+}
+.service-portion a{
+    margin-top: -120px;
+}
+.service-portion{
+    margin-bottom: 200px;
+}
+.update-portion{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.update-portion h1{
+ 
+}
+.form-portion {
+    width: 97%;
+    background-color: #fff4d6;
+    height: 100px;
+    padding-top: 50px;
+    border-radius: 5px;
+}
+.form-portion .mail-put{
+    height: 30px;
+    width: 247px;
+ 
+}
+.form-portion .sub-btn {
+    text-decoration: none;
+    display: inline-block;
+    background-color: #ff4500;
+    padding: 8px 10px;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 0 5px 5px 0;
+}
